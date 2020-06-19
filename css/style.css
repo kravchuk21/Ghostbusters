@@ -301,16 +301,12 @@ body.no-scroll {
   color: #000000;
   margin-bottom: 65px;
 }
-.news-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .news-card {
   flex-basis: 23%;
   background-color: #fff;
   padding: 30px;
   border-radius: 5px;
+  min-height: 170px;
 }
 .news-date {
   font-size: 14px;
