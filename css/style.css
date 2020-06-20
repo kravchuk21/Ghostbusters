@@ -26,7 +26,7 @@ body.no-scroll {
   position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: 0 0 6px 0 #d4d4d4;
+  box-shadow: 0 0 2px 0 #d4d4d4;
   z-index: 999;
 }
 .m-menu {
@@ -117,6 +117,18 @@ body.no-scroll {
   padding: 5px;
   background-color: #fff;
   border: none;
+  height: 25px;
+  width: 25px;
+}
+.search-button {
+  background: url(../img/search-icon.svg) no-repeat center;
+}
+.m-menu-button {
+  margin-left: 10px;
+  background: url(../img/menu.svg) no-repeat center;
+}
+.m-menu-button.active {
+  background: url(../img/arrow-menu.svg) no-repeat center;
 }
 .menu-line {
   display: block;
@@ -478,7 +490,7 @@ body.no-scroll {
     border: none;
     margin-bottom: 30px;
   }
-  .swiper-container.active{
+  .swiper-container.active {
     z-index: -1;
   }
   .film {
@@ -501,7 +513,7 @@ body.no-scroll {
     padding-bottom: 70px;
   }
   .news-card {
-    max-width: 90%;
+    max-width: 85%;
   }
   .button-next {
     display: block;

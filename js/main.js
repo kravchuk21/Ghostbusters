@@ -6,6 +6,7 @@ $(document).ready(function () {
     mMenu.toggleClass("active");
     $("body").toggleClass("no-scroll");
     $(".swiper-container").toggleClass("active");
+    $(".m-menu-button").toggleClass("active");
   });
   tab.on("click", function () {
     tab.removeClass("active");
@@ -18,6 +19,7 @@ $(document).ready(function () {
     slidesPerView: 4,
     spaceBetween: 25,
     loop: true,
+    grabCursor: true,
     breakpoints: {
       991: {
         slidesPerView: 4,
